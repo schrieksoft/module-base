@@ -9,3 +9,4 @@ variable "location" {
 }
 
 variable "administrator_object_id" {}
+variable "tenant_id" {}
