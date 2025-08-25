@@ -7,3 +7,5 @@ variable "location" {
   type = string
   description = "Location into which to deploy Azure resources"
 }
+
+variable "administrator_object_id" {}
