@@ -39,6 +39,11 @@ module "base_akv" {
   enabled_for_template_deployment = false
   enable_rbac_authorization       = true
   administrator_object_ids        = [var.administrator_object_id]
+
+  providers = {
+    azurerm = azurerm.default
+  }
+
 }
 
 
